@@ -1,0 +1,18 @@
+{
+  "name": "portfolios",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio de Agustín Reyes — realizador y editor audiovisual. HTML + CSS + JS puro, sin build.",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js",
+    "build": "node scripts/build.js",
+    "optimize": "node scripts/optimize-video.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "optionalDependencies": {
+    "ffmpeg-static": "^5.3.0"
+  }
+}

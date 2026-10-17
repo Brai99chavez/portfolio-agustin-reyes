@@ -1,0 +1,14 @@
+# dependencias (solo para desarrollo: ffmpeg-static para comprimir video)
+node_modules/
+
+# salida del build (se regenera con: npm run build)
+dist/
+
+# material pesado que NO va al sitio (fuentes sin optimizar)
+_videos-sin-usar/
+_originales/
+
+# varios
+.DS_Store
+Thumbs.db
+*.log

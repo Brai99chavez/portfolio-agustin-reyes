@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>document.documentElement.className = "js";</script><!-- si JS falla, el contenido igual se ve -->
+  <title>Agustín Reyes — Realizador & Editor Audiovisual</title>
+  <meta name="description" content="Agustín Reyes — Realizador y editor audiovisual. Contenido de alto impacto para marcas: Rexona, Axe, Cif, Dove, Unilever. Videoclips, realización y edición." />
+  <meta property="og:title" content="Agustín Reyes — Realizador & Editor Audiovisual" />
+  <meta property="og:description" content="Contenido audiovisual de alto impacto para marcas y videoclips." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232E5BFF'/%3E%3Cpath d='M13 10l9 6-9 6z' fill='white'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="index.html" class="nav__brand"><i></i>Agustín Reyes</a>
+    <nav class="nav__links">
+      <a href="trabajos.html">Trabajos</a>
+      <a href="#sobre">Sobre mí</a>
+      <a href="#contacto" class="nav__cta">Trabajemos</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+  <div class="nav__mobile" id="mobileMenu">
+    <a href="trabajos.html">Trabajos</a>
+    <a href="#sobre">Sobre mí</a>
+    <a href="#contacto">Contacto</a>
+    <a href="https://wa.me/5492945649461" target="_blank" rel="noopener" class="btn btn--accent btn--lg">WhatsApp</a>
+  </div>
+
+  <!-- HERO / REEL -->
+  <section class="hero" id="top">
+    <video class="hero__video" id="reel" src="assets/video/reel.mp4" poster="assets/video/reel.jpg" autoplay muted loop playsinline preload="auto"></video>
+    <div class="hero__scrim"></div>
+    <div class="hero__grain"></div>
+    <div class="wrap hero__inner">
+      <div class="hero__top">
+        <span class="eyebrow">Realizador &amp; Editor Audiovisual</span>
+        <button class="reel-ctrl" id="reelCtrl" aria-label="Activar sonido del reel">
+          <svg id="reelIco" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+          <span id="reelTxt">Sonido</span>
+        </button>
+      </div>
+      <h1>Contenido<br>que <span class="accent">mueve.</span></h1>
+      <div class="hero__foot">
+        <p class="hero__sub">8+ años transformando ideas en piezas audiovisuales de alto impacto. Realización audiovisual — de la idea a la entrega final.</p>
+        <span class="hero__scroll"><span class="d"></span>Reel en reproducción · bajá para ver</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARCAS -->
+  <section class="brands" aria-label="Marcas">
+    <div class="brands__row">
+      <div class="brands__track" id="brandsTrack"><!-- BUILD:brands -->
+<span class="brands__i">Unilever</span><span class="brands__i brands__sep">✦</span><span class="brands__i">Dove</span><span class="brands__i brands__sep">✦</span><span class="brands__i">Rexona</span><span class="brands__i brands__sep">✦</span><span class="brands__i">AXE</span><span class="brands__i brands__sep">✦</span><span class="brands__i">CIF</span><span class="brands__i brands__sep">✦</span><span class="brands__i">Technogym</span><span class="brands__i brands__sep">✦</span><span class="brands__i">C.A. Lanús</span><span class="brands__i brands__sep">✦</span><span class="brands__i">Griffin</span><span class="brands__i brands__sep">✦</span><span class="brands__i">Merz</span><span class="brands__i brands__sep">✦</span><span class="brands__i">DACAL</span><span class="brands__i brands__sep">✦</span><span class="brands__i">Nómada</span><span class="brands__i brands__sep">✦</span><span class="brands__i">Unilever</span><span class="brands__i brands__sep">✦</span><span class="brands__i">Dove</span><span class="brands__i brands__sep">✦</span><span class="brands__i">Rexona</span><span class="brands__i brands__sep">✦</span><span class="brands__i">AXE</span><span class="brands__i brands__sep">✦</span><span class="brands__i">CIF</span><span class="brands__i brands__sep">✦</span><span class="brands__i">Technogym</span><span class="brands__i brands__sep">✦</span><span class="brands__i">C.A. Lanús</span><span class="brands__i brands__sep">✦</span><span class="brands__i">Griffin</span><span class="brands__i brands__sep">✦</span><span class="brands__i">Merz</span><span class="brands__i brands__sep">✦</span><span class="brands__i">DACAL</span><span class="brands__i brands__sep">✦</span><span class="brands__i">Nómada</span><span class="brands__i brands__sep">✦</span>
+<!-- /BUILD:brands --></div>
+    </div>
+  </section>
+
+  <!-- TRABAJOS (teaser: destacados) -->
+  <section class="section wrap" id="trabajos">
+    <div class="shead">
+      <div class="shead__t">
+        <span class="label">01 — Trabajos</span>
+        <h2 data-reveal="cut">Marcas</h2>
+      </div>
+      <p data-reveal style="--d:.1s">Contenido para marcas líderes. Una selección — cada pieza abre su carpeta completa.</p>
+    </div>
+
+    <p class="rights" data-reveal>© Todos los derechos reservados a <b>Different</b></p>
+
+    <div class="work-grid" id="featured"><!-- BUILD:featured -->
+
+      <a class="wcard big" href="https://drive.google.com/drive/folders/134AcseM6E_UDLWrl-gb70-jvUW2mZwi6" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="consumo" data-preview="assets/video/preview-axe.mp4" aria-label="Axe Kansas — Mundial 2026 — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">A</span>
+        <img class="wcard__img" src="assets/img/axe.jpg" alt="Axe Kansas — Mundial 2026" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(01)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Campaña</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Axe Kansas — Mundial 2026</h3>
+          <div class="wcard__client">AXE · Unilever · 2026</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard tall" href="https://drive.google.com/drive/folders/11mn0mqDr2pqlWnFlrW2UzJyDbD9FA0-5" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="consumo" data-preview="assets/video/preview-rexona.mp4" aria-label="Rexona — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">R</span>
+        <img class="wcard__img" src="assets/img/rexona.jpg" alt="Rexona" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(02)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Activaciones</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Rexona</h3>
+          <div class="wcard__client">Rexona · Unilever · 2025—26</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1mx0SNe8KcTbuCVcCwsix4ghcl9V8kDjq" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="consumo" data-preview="assets/video/preview-cif-ala-skip.mp4" aria-label="CIF · ALA · SKIP — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">C</span>
+        <img class="wcard__img" src="assets/img/cif-ala-skip.jpg" alt="CIF · ALA · SKIP" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(03)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Producto</span><span class="wcard__tag">Multimarca</span></div>
+          <h3 class="wcard__title">CIF · ALA · SKIP</h3>
+          <div class="wcard__client">Unilever · 2025</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1loItCM0drE9eFF1LP1rJGJK_J3YVdn5k" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="consumo" data-preview="assets/video/preview-dove.mp4" aria-label="Dove — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">D</span>
+        <img class="wcard__img" src="assets/img/dove.jpg" alt="Dove" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(04)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Branded Content</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Dove</h3>
+          <div class="wcard__client">Dove · Unilever · 2026</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard tall" href="https://drive.google.com/drive/folders/1tq79glt2B09b6gs3gnQ1Bdc9lvVPvrSJ" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="moda" data-preview="assets/video/preview-griffin.mp4" aria-label="Griffin — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">G</span>
+        <img class="wcard__img" src="assets/img/griffin.jpg" alt="Griffin" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(05)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Lookbook</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Griffin</h3>
+          <div class="wcard__client">Griffin · Indumentaria · 2025—26</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard big" href="https://drive.google.com/drive/folders/1Lci1rnIQEzi4TfIj0jpSkipodHuPYw0k" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="otros" data-preview="assets/video/preview-fedelite.mp4" aria-label="Fedelite — Cherry — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">F</span>
+        <img class="wcard__img" src="assets/img/fedelite.jpg" alt="Fedelite — Cherry" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(06)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Producto</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Fedelite — Cherry</h3>
+          <div class="wcard__client">Fedelite · 2026</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+<!-- /BUILD:featured --></div>
+
+    <div class="section-cta" data-reveal>
+      <a class="btn btn--lg" href="trabajos.html">
+        Ver todos los trabajos
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="section wrap about" id="sobre">
+    <div class="about__visual" data-reveal>
+      <img class="about__photo" src="assets/img/agustin.jpg" alt="Agustín Reyes" loading="lazy" onerror="this.remove()">
+      <span class="cap">Agustín Reyes · Argentina</span>
+    </div>
+    <div class="about__text" data-reveal style="--d:.1s">
+      <span class="label" style="display:block;margin-bottom:1.2rem;">02 — Sobre mí</span>
+      <p class="about__big">Ideas convertidas en <em>piezas audiovisuales de alto impacto</em>.</p>
+      <p>Soy Agustín Reyes, <b>Técnico Superior en Multimedios</b> y <b>Licenciado en Artes Audiovisuales</b>, especializado en edición de video profesional y realización.</p>
+      <p>Trabajé en proyectos para <b>Rexona, Axe, Cif, Dove y Unilever</b>, entre muchas otras — trabajos realizados bajo la dirección de la productora <b>Different</b>, encabezada por <b>Kevin Burstin</b>. Esa diversidad me dio la capacidad de adaptarme a distintos estilos, objetivos y formatos, con soluciones creativas y eficientes para cada proyecto.</p>
+      <p>En paralelo dirijo y edito <b>videoclips para artistas</b> de la escena urbana — donde nació mi identidad visual y donde más libre me muevo. Más de <b>20 videoclips para 10+ artistas</b>.</p>
+      <p>Además de la postproducción, cuento con <b>equipamiento audiovisual profesional</b> para producción y filmación de alto estándar. Un buen video no solo tiene que verse bien: debe comunicar, emocionar y cumplir un objetivo.</p>
+      <div class="about__stats">
+        <div class="about__stat"><b>8<span class="accent">+</span></b><span>Años de trayectoria</span></div>
+        <div class="about__stat"><b>17<span class="accent">+</span></b><span>Marcas</span></div>
+        <div class="about__stat"><b>10<span class="accent">+</span></b><span>Artistas musicales</span></div>
+        <div class="about__stat"><b>20<span class="accent">+</span></b><span>Videoclips</span></div>
+      </div>
+      <p class="about__refs">Referencias — Dirección <a href="https://instagram.com/kevinburstin" target="_blank" rel="noopener">@kevinburstin</a> · Productora <a href="https://instagram.com/wearedifferent.films" target="_blank" rel="noopener">@wearedifferent.films</a></p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section contact" id="contacto">
+    <div class="wrap contact__inner">
+      <span class="label" data-reveal>03 — Contacto</span>
+      <h2 class="contact__title" data-reveal style="--d:.05s">¿Tenés un proyecto?<br><span class="accent">Hagámoslo.</span></h2>
+      <p class="contact__lead" data-reveal style="--d:.1s">Contame la idea y armamos juntos la mejor forma de mostrarla. Respondo rápido por WhatsApp — de la primera charla a la entrega final.</p>
+      <div class="contact__actions" data-reveal style="--d:.16s">
+        <a class="btn btn--accent btn--lg" href="https://wa.me/5492945649461" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.6.2s-.7 1-.9 1.1c-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.5-.9-2.1-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.2-1 1-1 2.3s1 2.7 1.2 2.9c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+          Escribime por WhatsApp
+        </a>
+        <a class="btn btn--lg" href="https://instagram.com/agustinreeyes" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg>
+          @agustinreeyes
+        </a>
+      </div>
+      <a class="contact__tel" href="tel:+5492945649461" data-reveal style="--d:.2s">o llamame — <b>+54 9 2945 64-9461</b></a>
+      <div class="contact__meta" data-reveal style="--d:.22s">
+        <span class="live"><i></i> Disponible para proyectos</span>
+        <span class="sep">/</span>
+        <span>Argentina · remoto u on-site</span>
+        <span class="sep">/</span>
+        <span>Foto · Video · Edición</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer wrap">
+    <span class="label">© <span id="y"></span> Agustín Reyes · Todos los derechos reservados a Different</span>
+    <span class="label"><a href="https://instagram.com/agustinreeyes" target="_blank" rel="noopener">@agustinreeyes</a> · Realización &amp; Edición · Argentina</span>
+  </footer>
+
+  <div class="cur" aria-hidden="true"></div>
+
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/templates.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>document.documentElement.className = "js";</script>
+  <title>Trabajos — Agustín Reyes</title>
+  <meta name="description" content="Trabajos de Agustín Reyes: contenido para marcas (Rexona, Axe, Cif, Dove, Unilever) y videoclips. Filtrá por tipo o rubro." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232E5BFF'/%3E%3Cpath d='M13 10l9 6-9 6z' fill='white'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="index.html" class="nav__brand"><i></i>Agustín Reyes</a>
+    <nav class="nav__links">
+      <a href="trabajos.html" aria-current="page">Trabajos</a>
+      <a href="index.html#sobre">Sobre mí</a>
+      <a href="index.html#contacto" class="nav__cta">Trabajemos</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+  <div class="nav__mobile" id="mobileMenu">
+    <a href="index.html">Inicio</a>
+    <a href="trabajos.html">Trabajos</a>
+    <a href="index.html#sobre">Sobre mí</a>
+    <a href="https://wa.me/5492945649461" target="_blank" rel="noopener" class="btn btn--accent btn--lg">WhatsApp</a>
+  </div>
+
+  <main>
+    <!-- PAGE HEAD -->
+    <section class="page-head wrap">
+      <a href="index.html" class="back-link" data-reveal>← Inicio</a>
+      <span class="label" data-reveal style="display:block;margin-top:1.4rem;">Portfolio</span>
+      <h1 class="page-title" data-reveal style="--d:.05s">Trabajos</h1>
+      <p data-reveal style="--d:.1s">De campañas globales de marca a videoclips urbanos — el mismo ojo, el mismo ritmo de montaje. Filtrá por tipo o por rubro.</p>
+      <p class="rights" data-reveal style="--d:.14s; margin-top:1.6rem;">Trabajos de marca realizados con la productora <b>Different</b> · Videoclips propios</p>
+    </section>
+
+    <!-- FILTROS + GRILLA UNIFICADA -->
+    <section class="section wrap" style="padding-top: clamp(1rem, 2vw, 2rem);">
+      <div class="filters" id="filters"><!-- BUILD:filters -->
+<button class="filter active" data-filter="todos">Todos</button><button class="filter" data-filter="marca">Marcas</button><button class="filter" data-filter="videoclip">Videoclips</button><span class="filters__rubros" id="rubros"><span class="filters__sep" aria-hidden="true"></span><button class="filter filter--rubro" data-filter="consumo">Consumo Masivo</button><button class="filter filter--rubro" data-filter="moda">Moda</button><button class="filter filter--rubro" data-filter="deporte">Deporte & Fitness</button><button class="filter filter--rubro" data-filter="salud">Salud & Estética</button><button class="filter filter--rubro" data-filter="otros">Real Estate & Medios</button></span>
+<!-- /BUILD:filters --></div>
+      <div class="work-grid tw-grid" id="all"><!-- BUILD:grid -->
+
+      <a class="wcard " href="https://drive.google.com/drive/folders/134AcseM6E_UDLWrl-gb70-jvUW2mZwi6" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="consumo" data-preview="assets/video/preview-axe.mp4" aria-label="Axe Kansas — Mundial 2026 — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">A</span>
+        <img class="wcard__img" src="assets/img/axe.jpg" alt="Axe Kansas — Mundial 2026" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(01)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Campaña</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Axe Kansas — Mundial 2026</h3>
+          <div class="wcard__client">AXE · Unilever · 2026</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/11mn0mqDr2pqlWnFlrW2UzJyDbD9FA0-5" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="consumo" data-preview="assets/video/preview-rexona.mp4" aria-label="Rexona — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">R</span>
+        <img class="wcard__img" src="assets/img/rexona.jpg" alt="Rexona" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(02)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Activaciones</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Rexona</h3>
+          <div class="wcard__client">Rexona · Unilever · 2025—26</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1mx0SNe8KcTbuCVcCwsix4ghcl9V8kDjq" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="consumo" data-preview="assets/video/preview-cif-ala-skip.mp4" aria-label="CIF · ALA · SKIP — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">C</span>
+        <img class="wcard__img" src="assets/img/cif-ala-skip.jpg" alt="CIF · ALA · SKIP" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(03)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Producto</span><span class="wcard__tag">Multimarca</span></div>
+          <h3 class="wcard__title">CIF · ALA · SKIP</h3>
+          <div class="wcard__client">Unilever · 2025</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1loItCM0drE9eFF1LP1rJGJK_J3YVdn5k" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="consumo" data-preview="assets/video/preview-dove.mp4" aria-label="Dove — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">D</span>
+        <img class="wcard__img" src="assets/img/dove.jpg" alt="Dove" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(04)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Branded Content</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Dove</h3>
+          <div class="wcard__client">Dove · Unilever · 2026</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1tq79glt2B09b6gs3gnQ1Bdc9lvVPvrSJ" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="moda" data-preview="assets/video/preview-griffin.mp4" aria-label="Griffin — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">G</span>
+        <img class="wcard__img" src="assets/img/griffin.jpg" alt="Griffin" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(05)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Lookbook</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Griffin</h3>
+          <div class="wcard__client">Griffin · Indumentaria · 2025—26</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1Lci1rnIQEzi4TfIj0jpSkipodHuPYw0k" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="otros" data-preview="assets/video/preview-fedelite.mp4" aria-label="Fedelite — Cherry — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">F</span>
+        <img class="wcard__img" src="assets/img/fedelite.jpg" alt="Fedelite — Cherry" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(06)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Producto</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Fedelite — Cherry</h3>
+          <div class="wcard__client">Fedelite · 2026</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1mEGu2TimVomGxY4nyjyoEmoqyZqodl3W" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="consumo" data-preview="assets/video/preview-u-talks.mp4" aria-label="Unilever U-TALKS — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">U</span>
+        <img class="wcard__img" src="assets/img/u-talks.jpg" alt="Unilever U-TALKS" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(07)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Corporativo</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Unilever U-TALKS</h3>
+          <div class="wcard__client">Unilever · 2025</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/174SbIABcBhxzHGHrM5mfpBwnOkF6tIt7" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="consumo" data-preview="assets/video/preview-aaaj-cif.mp4" aria-label="AAAJ — CIF — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">A</span>
+        <img class="wcard__img" src="assets/img/aaaj-cif.jpg" alt="AAAJ — CIF" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(08)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Foto</span><span class="wcard__tag">Producto</span></div>
+          <h3 class="wcard__title">AAAJ — CIF</h3>
+          <div class="wcard__client">CIF · Unilever · 2024</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/122n_TutWW4LMCVsdvZVxEfjOj9flb3yN" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="moda" data-preview="assets/video/preview-julien.mp4" aria-label="Julien — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">J</span>
+        <img class="wcard__img" src="assets/img/julien.jpg" alt="Julien" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(09)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Editorial</span><span class="wcard__tag">Foto</span></div>
+          <h3 class="wcard__title">Julien</h3>
+          <div class="wcard__client">Julien · Indumentaria · 2025</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/10orm661olv-AZG0F09x_V0ItHRRZZT4S" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="moda" data-preview="assets/video/preview-raco.mp4" aria-label="Racó de la Loixe — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">R</span>
+        <img class="wcard__img" src="assets/img/raco.jpg" alt="Racó de la Loixe" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(10)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Lookbook</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Racó de la Loixe</h3>
+          <div class="wcard__client">Racó · Indumentaria · 2024</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1960QVxAdTMApAHTB1VoK75Q9QZ0sVv32" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="moda" data-preview="assets/video/preview-roda.mp4" aria-label="Roda Polo — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">R</span>
+        <img class="wcard__img" src="assets/img/roda.jpg" alt="Roda Polo" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(11)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Producto</span><span class="wcard__tag">Foto</span></div>
+          <h3 class="wcard__title">Roda Polo</h3>
+          <div class="wcard__client">Roda · Indumentaria · 2024</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1gH0mDQbz2fMU4EApTJrMWRH4vuSAzQ8L" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="deporte" data-preview="assets/video/preview-lanus.mp4" aria-label="Club Atlético Lanús — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">C</span>
+        <img class="wcard__img" src="assets/img/lanus.jpg" alt="Club Atlético Lanús" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(12)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Deporte</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Club Atlético Lanús</h3>
+          <div class="wcard__client">C.A. Lanús · SUIG · 2025</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1-_pg1esIYCT_bk3X8GGtNxRte3DS9VBl" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="deporte" data-preview="assets/video/preview-technogym.mp4" aria-label="Technogym — Ponzio — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">T</span>
+        <img class="wcard__img" src="assets/img/technogym.jpg" alt="Technogym — Ponzio" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(13)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Fitness</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Technogym — Ponzio</h3>
+          <div class="wcard__client">Technogym · 2025</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1jKtMiRGMl2fqxHofGmjp89utOTxR3JBt" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="deporte" data-preview="assets/video/preview-nomada.mp4" aria-label="Nómada Trail — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">N</span>
+        <img class="wcard__img" src="assets/img/nomada.jpg" alt="Nómada Trail" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(14)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Trail</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Nómada Trail</h3>
+          <div class="wcard__client">Nómada · Outdoor · 2024</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1sbarc1EjL7LZyCnmkgD3USgVRqQo83wM" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="salud" data-preview="assets/video/preview-merz.mp4" aria-label="Merz — Estérica — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">M</span>
+        <img class="wcard__img" src="assets/img/merz.jpg" alt="Merz — Estérica" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(15)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Estética</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Merz — Estérica</h3>
+          <div class="wcard__client">Merz · Estética · 2025</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1olNex2_pIxVN4_etLFByDAiiCas8ATWv" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="otros" data-preview="assets/video/preview-dacal.mp4" aria-label="Inmobiliaria DACAL — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">I</span>
+        <img class="wcard__img" src="assets/img/dacal.jpg" alt="Inmobiliaria DACAL" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(16)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Inmobiliaria</span><span class="wcard__tag">Video</span></div>
+          <h3 class="wcard__title">Inmobiliaria DACAL</h3>
+          <div class="wcard__client">DACAL · Real Estate · 2024</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard " href="https://drive.google.com/drive/folders/1gKCGRG-SE17us-gMRsfgT6RvFeT41EqH" target="_blank" rel="noopener"
+         data-reveal data-type="marca" data-cat="otros" data-preview="assets/video/preview-conectados.mp4" aria-label="Conectados TV — abrir en Drive">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">C</span>
+        <img class="wcard__img" src="assets/img/conectados.jpg" alt="Conectados TV" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(17)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">TV</span><span class="wcard__tag">Edición</span></div>
+          <h3 class="wcard__title">Conectados TV</h3>
+          <div class="wcard__client">Conectados · Medios · 2024</div>
+          <span class="wcard__cta">Ver en Drive ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/nUvP91M88Gc" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-nUvP91M88Gc.mp4" aria-label="Honker, Lizzen, FKL, Ivo GTH, Powa, Elli The Kid — Switch RMX">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">H</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/nUvP91M88Gc/hqdefault.jpg" alt="Honker, Lizzen, FKL, Ivo GTH, Powa, Elli The Kid — Switch RMX" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(01)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">Switch RMX</h3>
+          <div class="wcard__client">Honker, Lizzen, FKL, Ivo GTH, Powa, Elli The Kid</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/v0jd6fCTCW4" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-v0jd6fCTCW4.mp4" aria-label="Honker — Voy a Mil">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">H</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/v0jd6fCTCW4/hqdefault.jpg" alt="Honker — Voy a Mil" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(02)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">Voy a Mil</h3>
+          <div class="wcard__client">Honker</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/OscaahRpoe8" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-OscaahRpoe8.mp4" aria-label="Mainas — Dejavú">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">M</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/OscaahRpoe8/hqdefault.jpg" alt="Mainas — Dejavú" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(03)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">Dejavú</h3>
+          <div class="wcard__client">Mainas</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/zEMkwCWyn1E" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-zEMkwCWyn1E.mp4" aria-label="Lizzen — Cambié la Visión">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">L</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/zEMkwCWyn1E/hqdefault.jpg" alt="Lizzen — Cambié la Visión" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(04)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">Cambié la Visión</h3>
+          <div class="wcard__client">Lizzen</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/Op6SbtB3FdQ" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-Op6SbtB3FdQ.mp4" aria-label="Orquesta Afónica y Disonante del Valle del Arroyo — Acerca del Sonido">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">O</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/Op6SbtB3FdQ/hqdefault.jpg" alt="Orquesta Afónica y Disonante del Valle del Arroyo — Acerca del Sonido" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(05)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">Acerca del Sonido</h3>
+          <div class="wcard__client">Orquesta Afónica y Disonante del Valle del Arroyo</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/G_1xLX5k4Nw" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-G_1xLX5k4Nw.mp4" aria-label="Dhela ft. Tysan — Wapo">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">D</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/G_1xLX5k4Nw/hqdefault.jpg" alt="Dhela ft. Tysan — Wapo" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(06)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">Wapo</h3>
+          <div class="wcard__client">Dhela ft. Tysan</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/4eKuvwHvTLo" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-4eKuvwHvTLo.mp4" aria-label="JCL — High">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">J</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/4eKuvwHvTLo/hqdefault.jpg" alt="JCL — High" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(07)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">High</h3>
+          <div class="wcard__client">JCL</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/dNIgcvGbFz0" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-dNIgcvGbFz0.mp4" aria-label="Gasti — Rolling">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">G</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/dNIgcvGbFz0/hqdefault.jpg" alt="Gasti — Rolling" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(08)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">Rolling</h3>
+          <div class="wcard__client">Gasti</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/gIIhdCegxgU" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-gIIhdCegxgU.mp4" aria-label="Kid Ney — La Cura">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">K</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/gIIhdCegxgU/hqdefault.jpg" alt="Kid Ney — La Cura" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(09)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">La Cura</h3>
+          <div class="wcard__client">Kid Ney</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/ORH8m6Ca748" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-ORH8m6Ca748.mp4" aria-label="Dhela — Arena">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">D</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/ORH8m6Ca748/hqdefault.jpg" alt="Dhela — Arena" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(10)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">Arena</h3>
+          <div class="wcard__client">Dhela</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/JkS8agPCaJA" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-JkS8agPCaJA.mp4" aria-label="El Tannoo — En Lo Mío">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">E</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/JkS8agPCaJA/hqdefault.jpg" alt="El Tannoo — En Lo Mío" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(11)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">En Lo Mío</h3>
+          <div class="wcard__client">El Tannoo</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/X3ErGa7oy7o" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-X3ErGa7oy7o.mp4" aria-label="KpR — Conexión Sur">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">K</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/X3ErGa7oy7o/hqdefault.jpg" alt="KpR — Conexión Sur" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(12)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">Conexión Sur</h3>
+          <div class="wcard__client">KpR</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/Mwftz26wLT0" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-Mwftz26wLT0.mp4" aria-label="PRK x Honker — Te Deseo Buena Suerte">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">P</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/Mwftz26wLT0/hqdefault.jpg" alt="PRK x Honker — Te Deseo Buena Suerte" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(13)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">Te Deseo Buena Suerte</h3>
+          <div class="wcard__client">PRK x Honker</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+      <a class="wcard vcard" href="https://youtu.be/jXG95537ssA" target="_blank" rel="noopener" data-reveal data-type="videoclip" data-preview="assets/video/preview-vc-jXG95537ssA.mp4" aria-label="Honker x Tomhit — Al Porte">
+        <div class="wcard__bg" style="background:linear-gradient(150deg,#1b1d26,#0c0d11);"></div>
+        <span class="wcard__initial" aria-hidden="true">H</span>
+        <img class="wcard__img" src="https://i.ytimg.com/vi/jXG95537ssA/hqdefault.jpg" alt="Honker x Tomhit — Al Porte" loading="lazy" onerror="this.remove()">
+        <span class="wcard__scrim"></span>
+        <span class="wcard__num">(14)</span>
+        <span class="wcard__play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+        <div class="wcard__body">
+          <div class="wcard__tags"><span class="wcard__tag on">Videoclip</span></div>
+          <h3 class="wcard__title">Al Porte</h3>
+          <div class="wcard__client">Honker x Tomhit</div>
+          <span class="wcard__cta">Ver en YouTube ↗</span>
+        </div>
+      </a>
+<!-- /BUILD:grid --></div>
+
+      <div class="section-cta" data-reveal>
+        <a class="btn btn--accent btn--lg" href="index.html#contacto">Trabajemos juntos</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <span class="label">© <span id="y"></span> Agustín Reyes · Trabajos de marca © Different</span>
+    <span class="label"><a href="https://instagram.com/agustinreeyes" target="_blank" rel="noopener">@agustinreeyes</a> · Realización &amp; Edición · Argentina</span>
+  </footer>
+
+  <div class="cur" aria-hidden="true"></div>
+
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/videoclips.js"></script>
+  <script src="assets/js/templates.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
